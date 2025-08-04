@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import ColorDropdown from './components/ColorDropdown'
+import ColorDropdown from '../components/ColorDropdown'
 
 export default function Home() {
   const [bgColor, setBgColor] = useState('white')
